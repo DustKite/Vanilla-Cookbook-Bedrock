@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:cherry_blossom_tea"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB ",
+      "C  "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:potion"
+      },
+      "B": {
+        "item": "minecraft:cherry_leaves"
+      },
+      "C": {
+        "item": "minecraft:cherry_leaves"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:cherry_blossom_tea",
+        "count": 1
+      }
+    ]
+  }
+}

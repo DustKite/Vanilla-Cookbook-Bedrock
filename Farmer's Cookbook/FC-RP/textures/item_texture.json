@@ -1,0 +1,39 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "pizza": {
+      "textures": "textures/items/vc_pizza"
+    },
+    "berry_cake_slice": {
+      "textures": "textures/items/vc_berry_cake_slice"
+    },
+    "book_cake_slice": {
+      "textures": "textures/items/vc_book_cake_slice"
+    },
+    "carrot_cake_slice": {
+      "textures": "textures/items/vc_carrot_cake_slice"
+    },
+    "cheesecake_slice": {
+      "textures": "textures/items/vc_cheesecake_slice"
+    },
+    "chocolate_cake_slice": {
+      "textures": "textures/items/vc_chocolate_cake_slice"
+    },
+    "chorus_cake_slice": {
+      "textures": "textures/items/vc_chorus_cake_slice"
+    },
+    "glow_berry_cake_slice": {
+      "textures": "textures/items/vc_glow_berry_cake_slice"
+    },
+    "ice_cream_cake_slice": {
+      "textures": "textures/items/vc_ice_cream_cake_slice"
+    },
+    "mohnkuchen_slice": {
+      "textures": "textures/items/vc_mohnkuchen_slice"
+    },
+    "rose_cake_slice": {
+      "textures": "textures/items/vc_rose_cake_slice"
+    }
+  }
+}

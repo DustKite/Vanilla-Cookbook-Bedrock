@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:brownie"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DE"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:wheat"
+      },
+      "B": {
+        "item": "minecraft:sugar"
+      },
+      "C": {
+        "tag": "minecraft:egg"
+      },
+      "D": {
+        "item": "minecraft:milk_bucket"
+      },
+      "E": {
+        "item": "minecraft:cocoa_beans"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:brownie",
+        "count": 1
+      },
+      {
+        "item": "minecraft:bucket",
+        "count": 1
+      }
+    ]
+  }
+}

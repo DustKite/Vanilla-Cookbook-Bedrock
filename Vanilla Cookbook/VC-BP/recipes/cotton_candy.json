@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:cotton_candy"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DE"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:breeze_rod"
+      },
+      "B": {
+        "item": "minecraft:wind_charge"
+      },
+      "C": {
+        "item": "minecraft:red_dye"
+      },
+      "D": {
+        "item": "minecraft:sugar"
+      },
+      "E": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:cotton_candy",
+        "count": 1
+      }
+    ]
+  }
+}

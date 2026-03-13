@@ -1,0 +1,41 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:brownie_tray"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DEF"
+    ],
+    "key": {
+      "A": {
+        "item": "vanillacookbook:brownie"
+      },
+      "B": {
+        "item": "vanillacookbook:brownie"
+      },
+      "C": {
+        "item": "vanillacookbook:brownie"
+      },
+      "D": {
+        "item": "vanillacookbook:brownie"
+      },
+      "E": {
+        "item": "vanillacookbook:brownie"
+      },
+      "F": {
+        "item": "vanillacookbook:brownie"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:brownie_tray",
+        "count": 1
+      }
+    ]
+  }
+}

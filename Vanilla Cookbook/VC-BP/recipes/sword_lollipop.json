@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:sword_lollipop"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "  S",
+      "SH ",
+      "IS "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:sugar"
+      },
+      "I": {
+        "item": "minecraft:stick"
+      },
+      "H": {
+        "item": "minecraft:honey_bottle"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:sword_lollipop",
+        "count": 1
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
+      }
+    ]
+  }
+}

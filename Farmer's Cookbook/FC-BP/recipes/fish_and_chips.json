@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "farmerscookbook:fish_and_chips"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "C"
+    ],
+    "key": {
+      "A": {
+        "tag": "farmersdelight:is_cooked_cod"
+      },
+      "B": {
+        "item": "minecraft:potato"
+      },
+      "C": {
+        "item": "minecraft:potato"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:fish_and_chips",
+        "count": 1
+      }
+    ]
+  }
+}

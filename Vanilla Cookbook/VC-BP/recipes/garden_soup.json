@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:garden_soup"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "CD"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:bowl"
+      },
+      "B": {
+        "item": "minecraft:carrot"
+      },
+      "C": {
+        "item": "minecraft:potato"
+      },
+      "D": {
+        "item": "minecraft:beetroot"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:garden_soup",
+        "count": 1
+      }
+    ]
+  }
+}

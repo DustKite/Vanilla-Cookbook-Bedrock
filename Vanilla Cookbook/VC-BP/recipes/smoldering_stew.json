@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:smoldering_stew"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "CD"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:bowl"
+      },
+      "B": {
+        "item": "minecraft:nether_wart"
+      },
+      "C": {
+        "item": "minecraft:nether_wart"
+      },
+      "D": {
+        "item": "minecraft:magma_cream"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:smoldering_stew",
+        "count": 1
+      }
+    ]
+  }
+}

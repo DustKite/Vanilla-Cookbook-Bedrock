@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "farmerscookbook:hot_chicken_drumstick_2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "tag": "farmersdelight:is_cooked_chicken"
+      },
+      "B": {
+        "item": "minecraft:torchflower"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:hot_chicken_drumstick",
+        "count": 2
+      }
+    ]
+  }
+}

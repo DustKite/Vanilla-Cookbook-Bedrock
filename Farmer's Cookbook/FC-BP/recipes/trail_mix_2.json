@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "farmerscookbook:trail_mix_2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "D"
+    ],
+    "key": {
+      "A": {
+        "item": "farmersdelight:tomato_seeds"
+      },
+      "B": {
+        "item": "farmersdelight:tomato_seeds"
+      },
+      "C": {
+        "item": "farmersdelight:tomato_seeds"
+      },
+      "D": {
+        "item": "farmersdelight:tomato_seeds"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:trail_mix",
+        "count": 1
+      }
+    ]
+  }
+}

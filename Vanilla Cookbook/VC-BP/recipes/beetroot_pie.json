@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:beetroot_pie"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "CD"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:beetroot"
+      },
+      "B": {
+        "item": "minecraft:beetroot"
+      },
+      "C": {
+        "item": "minecraft:egg"
+      },
+      "D": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:beetroot_pie",
+        "count": 1
+      }
+    ]
+  }
+}

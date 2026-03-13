@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:poisonous_pie"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DE"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:rotten_flesh"
+      },
+      "B": {
+        "tag": "minecraft:egg"
+      },
+      "C": {
+        "item": "minecraft:sugar"
+      },
+      "D": {
+        "item": "minecraft:spider_eye"
+      },
+      "E": {
+        "item": "minecraft:poisonous_potato"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:poisonous_pie",
+        "count": 1
+      }
+    ]
+  }
+}

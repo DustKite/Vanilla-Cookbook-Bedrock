@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:sculky_cheese"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "D"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:sculk_vein"
+      },
+      "B": {
+        "item": "minecraft:sculk_vein"
+      },
+      "C": {
+        "item": "minecraft:sculk_vein"
+      },
+      "D": {
+        "item": "vanillacookbook:cheese"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:sculky_cheese",
+        "count": 1
+      }
+    ]
+  }
+}

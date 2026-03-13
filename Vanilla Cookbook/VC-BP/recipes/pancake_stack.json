@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:pancake_stack"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DE"
+    ],
+    "key": {
+      "A": {
+        "item": "vanillacookbook:pancake"
+      },
+      "B": {
+        "item": "vanillacookbook:pancake"
+      },
+      "C": {
+        "item": "vanillacookbook:pancake"
+      },
+      "D": {
+        "item": "vanillacookbook:pancake"
+      },
+      "E": {
+        "item": "vanillacookbook:pancake"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:pancake_stack",
+        "count": 1
+      }
+    ]
+  }
+}

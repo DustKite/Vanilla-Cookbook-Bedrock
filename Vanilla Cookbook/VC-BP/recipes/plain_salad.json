@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:plain_salad"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "CD"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:bowl"
+      },
+      "B": {
+        "item": "minecraft:birch_leaves"
+      },
+      "C": {
+        "item": "minecraft:dandelion"
+      },
+      "D": {
+        "item": "minecraft:dandelion"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:plain_salad",
+        "count": 1
+      }
+    ]
+  }
+}

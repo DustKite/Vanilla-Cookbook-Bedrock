@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:berry_ice_cream"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "C"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:snowball"
+      },
+      "B": {
+        "item": "minecraft:milk_bucket"
+      },
+      "C": {
+        "item": "minecraft:sweet_berries"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:berry_ice_cream",
+        "count": 1
+      },
+      {
+        "item": "minecraft:bucket",
+        "count": 1
+      }
+    ]
+  }
+}

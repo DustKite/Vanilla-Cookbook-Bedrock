@@ -1,0 +1,38 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "components": {
+      "minecraft:food": {
+        "can_always_eat": true,
+        "nutrition": 3,
+        "saturation_modifier": 0.3
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "cheese"
+        }
+      },
+      "minecraft:tags": {
+        "tags": [
+          "brewinandchewin:cheese_wedges",
+          "farmersdelight:cheese_slices"
+        ]
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.4
+      },
+      "minecraft:compostable": {
+        "composting_chance": 85
+      }
+    },
+    "description": {
+      "identifier": "vanillacookbook:cheese",
+      "menu_category": {
+        "category": "equipment",
+        "group": "vanillacookbook:itemGroup.name.Food"
+      }
+    }
+  }
+}

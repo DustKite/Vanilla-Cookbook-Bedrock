@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:honey_candy"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:honey_bottle"
+      },
+      "B": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:honey_candy",
+        "count": 2
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
+      }
+    ]
+  }
+}

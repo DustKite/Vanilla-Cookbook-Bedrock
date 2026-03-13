@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:wart_pie"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "CD"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:nether_wart"
+      },
+      "B": {
+        "item": "minecraft:nether_wart"
+      },
+      "C": {
+        "tag": "minecraft:egg"
+      },
+      "D": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:wart_pie",
+        "count": 1
+      }
+    ]
+  }
+}

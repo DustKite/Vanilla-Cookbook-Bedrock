@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:warped_gummy"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DE"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:warped_wart_block"
+      },
+      "B": {
+        "item": "minecraft:bone"
+      },
+      "C": {
+        "item": "minecraft:sugar"
+      },
+      "D": {
+        "item": "minecraft:sugar"
+      },
+      "E": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:warped_gummy",
+        "count": 3
+      }
+    ]
+  }
+}

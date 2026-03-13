@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:hot_chicken_drumstick"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:cooked_chicken"
+      },
+      "B": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:hot_chicken_drumstick",
+        "count": 2
+      }
+    ]
+  }
+}

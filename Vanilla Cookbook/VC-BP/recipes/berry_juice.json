@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:berry_juice"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB ",
+      "C  "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:potion"
+      },
+      "B": {
+        "item": "minecraft:sweet_berries"
+      },
+      "C": {
+        "item": "minecraft:sweet_berries"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:berry_juice",
+        "count": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "components": {
+      "minecraft:food": {
+        "can_always_eat": true,
+        "nutrition": 2,
+        "saturation_modifier": 0.45
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "beet_chips"
+        }
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 0.8,
+        "movement_modifier": 0.4
+      },
+      "minecraft:compostable": {
+        "composting_chance": 85
+      }
+    },
+    "description": {
+      "identifier": "vanillacookbook:beet_chips",
+      "menu_category": {
+        "category": "equipment",
+        "group": "vanillacookbook:itemGroup.name.Food"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "farmerscookbook:trail_mix"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "D"
+    ],
+    "key": {
+      "A": {
+        "item": "farmersdelight:cabbage_seeds"
+      },
+      "B": {
+        "item": "farmersdelight:cabbage_seeds"
+      },
+      "C": {
+        "item": "farmersdelight:cabbage_seeds"
+      },
+      "D": {
+        "item": "farmersdelight:cabbage_seeds"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:trail_mix",
+        "count": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:meaty_stew_3"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DE"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:bowl"
+      },
+      "B": {
+        "item": "minecraft:porkchop"
+      },
+      "C": {
+        "item": "minecraft:bone"
+      },
+      "D": {
+        "item": "minecraft:bone"
+      },
+      "E": {
+        "item": "minecraft:carrot"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:meaty_stew",
+        "count": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:mashed_potatoes_2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "CD"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:bowl"
+      },
+      "B": {
+        "item": "minecraft:potato"
+      },
+      "C": {
+        "item": "minecraft:potato"
+      },
+      "D": {
+        "tag": "farmersdelight:is_milk"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:mashed_potatoes",
+        "count": 1
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
+      }
+    ]
+  }
+}

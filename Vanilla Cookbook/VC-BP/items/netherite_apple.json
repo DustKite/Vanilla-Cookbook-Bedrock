@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "components": {
+      "minecraft:food": {
+        "can_always_eat": true,
+        "nutrition": 4,
+        "saturation_modifier": 1.2
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "netherite_apple"
+        }
+      },
+      "minecraft:rarity": "rare",
+      "minecraft:fire_resistant": {},
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.4
+      }
+    },
+    "description": {
+      "identifier": "vanillacookbook:netherite_apple",
+      "menu_category": {
+        "category": "equipment",
+        "group": "vanillacookbook:itemGroup.name.Food"
+      }
+    }
+  }
+}

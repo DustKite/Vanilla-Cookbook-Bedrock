@@ -1,0 +1,2226 @@
+{
+    "is_egg": {
+        "type": "image",
+        "texture": "textures/gui/is_egg",
+        "uv": "@3_fps",
+        "uv_size": [
+            16,
+            16
+        ],
+        "disable_anim_fast_forward": true
+    },
+    "is_milk": {
+        "type": "image",
+        "texture": "textures/gui/is_milk",
+        "uv": "@2_fps",
+        "uv_size": [
+            16,
+            16
+        ],
+        "disable_anim_fast_forward": true
+    },
+    "is_mushroom": {
+        "type": "image",
+        "texture": "textures/gui/is_mushroom",
+        "uv": "@2_fps",
+        "uv_size": [
+            16,
+            16
+        ],
+        "disable_anim_fast_forward": true
+    },
+    "is_raw_meat": {
+        "type": "image",
+        "texture": "textures/gui/is_raw_meat",
+        "uv": "@8_fps",
+        "uv_size": [
+            16,
+            16
+        ],
+        "disable_anim_fast_forward": true
+    },
+    "is_raw_fish": {
+        "type": "image",
+        "texture": "textures/gui/is_raw_fish",
+        "uv": "@5_fps",
+        "uv_size": [
+            16,
+            16
+        ],
+        "disable_anim_fast_forward": true
+    },
+    "is_potato_and_beetroot": {
+        "type": "image",
+        "texture": "textures/gui/is_potato_and_beetroot",
+        "uv": "@2_fps",
+        "uv_size": [
+            16,
+            16
+        ],
+        "disable_anim_fast_forward": true
+    },
+    "is_fungus": {
+        "type": "image",
+        "texture": "textures/gui/is_fungus",
+        "uv": "@2_fps",
+        "uv_size": [
+            16,
+            16
+        ],
+        "disable_anim_fast_forward": true
+    },
+    "2_fps": {
+        "anim_type": "flip_book",
+        "initial_uv": [
+            0,
+            0
+        ],
+        "frame_count": 2,
+        "frame_step": 16,
+        "fps": 1,
+        "reversible": true,
+        "easing": "linear"
+    },
+    "3_fps": {
+        "anim_type": "flip_book",
+        "initial_uv": [
+            0,
+            0
+        ],
+        "frame_count": 3,
+        "frame_step": 16,
+        "fps": 1,
+        "reversible": true,
+        "easing": "linear"
+    },
+    "5_fps": {
+        "anim_type": "flip_book",
+        "initial_uv": [
+            0,
+            0
+        ],
+        "frame_count": 5,
+        "frame_step": 16,
+        "fps": 1,
+        "reversible": true,
+        "easing": "linear"
+    },
+    "8_fps": {
+        "anim_type": "flip_book",
+        "initial_uv": [
+            0,
+            0
+        ],
+        "frame_count": 8,
+        "frame_step": 16,
+        "fps": 1,
+        "reversible": true,
+        "easing": "linear"
+    },
+    "farmerscookbook_recipe_part_0": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "cooked_egg@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0@cooking_pot.is_egg": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/vc_cooked_egg"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "cooked_sniffer_egg@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/sniffer_egg"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/vc_cooked_sniffer_egg"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "farmerscookbook_recipe_part_1": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "cooked_bamboo@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bamboo"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/vc_cooked_bamboo"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "cooked_beetroot@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/beetroot"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/vc_cooked_beetroot"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "farmerscookbook_recipe_part_2": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "cooked_turtle_egg@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/turtle_egg"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/vc_cooked_turtle_egg"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "cheese@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0@cooking_pot.is_milk": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/vc_cheese"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "farmerscookbook_recipe_part_3": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "mashed_potatoes@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/potato"
+                                        }
+                                    },
+                                    {
+                                        "cell1": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/potato"
+                                        }
+                                    },
+                                    {
+                                        "cell2@cooking_pot.is_milk": {
+                                            "type": "image",
+                                            "offset": [
+                                                -6.25,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "container": {
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/vc_mashed_potatoes"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "apple_sauce@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/apple"
+                                        }
+                                    },
+                                    {
+                                        "cell1": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/sugar"
+                                        }
+                                    },
+                                    {
+                                        "cell3": {
+                                            "type": "image",
+                                            "offset": [
+                                                -6.25,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/sugar"
+                                        }
+                                    },
+                                    {
+                                        "container": {
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/vc_apple_sauce"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "farmerscookbook_recipe_part_4": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "jelly@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/slimeball"
+                                        }
+                                    },
+                                    {
+                                        "cell1": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/sugar"
+                                        }
+                                    },
+                                    {
+                                        "container": {
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/vc_jelly"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "magma_jelly@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/magma_cream"
+                                        }
+                                    },
+                                    {
+                                        "cell1": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/sugar"
+                                        }
+                                    },
+                                    {
+                                        "container": {
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/vc_magma_jelly"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "farmerscookbook_recipe_part_5": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "pudding@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/sugar"
+                                        }
+                                    },
+                                    {
+                                        "cell1@cooking_pot.is_egg": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "cell2@cooking_pot.is_milk": {
+                                            "type": "image",
+                                            "offset": [
+                                                -6.25,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "container": {
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/vc_pudding"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "chocolate_pudding@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/sugar"
+                                        }
+                                    },
+                                    {
+                                        "cell1@cooking_pot.is_egg": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "cell2@cooking_pot.is_milk": {
+                                            "type": "image",
+                                            "offset": [
+                                                -6.25,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "cell3": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                1.5
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/dye_powder_brown"
+                                        }
+                                    },
+                                    {
+                                        "container": {
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/vc_chocolate_pudding"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "farmerscookbook_recipe_part_6": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "glow_ink_soup@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/dye_powder_glow"
+                                        }
+                                    },
+                                    {
+                                        "cell1": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/dye_powder_glow"
+                                        }
+                                    },
+                                    {
+                                        "container": {
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/vc_glow_ink_soup"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "ink_soup@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/dye_powder_black"
+                                        }
+                                    },
+                                    {
+                                        "cell1": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/dye_powder_black"
+                                        }
+                                    },
+                                    {
+                                        "container": {
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/vc_ink_soup"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "farmerscookbook_recipe_part_7": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "pumpkin_soup@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/gui/recipe/pumpkin"
+                                        }
+                                    },
+                                    {
+                                        "cell1": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/seeds_pumpkin"
+                                        }
+                                    },
+                                    {
+                                        "cell2": {
+                                            "type": "image",
+                                            "offset": [
+                                                -6.25,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/seeds_pumpkin"
+                                        }
+                                    },
+                                    {
+                                        "container": {
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/vc_pumpkin_soup"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "garden_soup@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/carrot"
+                                        }
+                                    },
+                                    {
+                                        "cell1": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/potato"
+                                        }
+                                    },
+                                    {
+                                        "cell2": {
+                                            "type": "image",
+                                            "offset": [
+                                                -6.25,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/beetroot"
+                                        }
+                                    },
+                                    {
+                                        "container": {
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/vc_garden_soup"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "farmerscookbook_recipe_part_8": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "chicken_soup@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0@cooking_pot.is_raw_chicken": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "cell1": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/carrot"
+                                        }
+                                    },
+                                    {
+                                        "cell2": {
+                                            "type": "image",
+                                            "offset": [
+                                                -6.25,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/carrot"
+                                        }
+                                    },
+                                    {
+                                        "container": {
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/vc_chicken_soup"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "mushroom_scrambled_eggs@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0@cooking_pot.is_mushroom": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "cell1@cooking_pot.is_mushroom": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "cell2@cooking_pot.is_egg": {
+                                            "type": "image",
+                                            "offset": [
+                                                -6.25,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "cell3@cooking_pot.is_milk": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                1.5
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "container": {
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/vc_mushroom_scrambled_eggs"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "farmerscookbook_recipe_part_9": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "meaty_stew@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0@cooking_pot.is_raw_meat": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "cell1": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bone"
+                                        }
+                                    },
+                                    {
+                                        "cell2": {
+                                            "type": "image",
+                                            "offset": [
+                                                -6.25,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bone"
+                                        }
+                                    },
+                                    {
+                                        "cell3": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                1.5
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/carrot"
+                                        }
+                                    },
+                                    {
+                                        "container": {
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/vc_meaty_stew"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "fungus_stew@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0@cooking_pot.is_fungus": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "cell1@cooking_pot.is_fungus": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "container": {
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/vc_fungus_stew"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "farmerscookbook_recipe_part_10": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "vegetable_stew@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/carrot"
+                                        }
+                                    },
+                                    {
+                                        "cell1@cooking_pot.is_potato_and_beetroot": {
+                                            "type": "image",
+                                            "offset": [
+                                                -6.25,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "cell2@cooking_pot.is_potato_and_beetroot": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "cell3": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                1.5
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/gui/recipe/pumpkin"
+                                        }
+                                    },
+                                    {
+                                        "cell4": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                1.5
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/kelp"
+                                        }
+                                    },
+                                    {
+                                        "container": {
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/vc_vegetable_stew"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "fish_stew@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0@cooking_pot.is_raw_fish": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "cell1@cooking_pot.is_raw_fish": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "container": {
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/vc_fish_stew"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "farmerscookbook_recipe_part_11": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "smoldering_stew@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/magma_cream"
+                                        }
+                                    },
+                                    {
+                                        "cell1": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/nether_wart"
+                                        }
+                                    },
+                                    {
+                                        "cell2": {
+                                            "type": "image",
+                                            "offset": [
+                                                -6.25,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/nether_wart"
+                                        }
+                                    },
+                                    {
+                                        "container": {
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/vc_smoldering_stew"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "farmerscookbook_recipe_grid_0": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.farmerscookbook_recipe_part_0"
+    },
+    "farmerscookbook_recipe_grid_1": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.farmerscookbook_recipe_part_1"
+    },
+    "farmerscookbook_recipe_grid_2": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.farmerscookbook_recipe_part_2"
+    },
+    "farmerscookbook_recipe_grid_3": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.farmerscookbook_recipe_part_3"
+    },
+    "farmerscookbook_recipe_grid_4": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.farmerscookbook_recipe_part_4"
+    },
+    "farmerscookbook_recipe_grid_5": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.farmerscookbook_recipe_part_5"
+    },
+    "farmerscookbook_recipe_grid_6": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.farmerscookbook_recipe_part_6"
+    },
+    "farmerscookbook_recipe_grid_7": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.farmerscookbook_recipe_part_7"
+    },
+    "farmerscookbook_recipe_grid_8": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.farmerscookbook_recipe_part_8"
+    },
+    "farmerscookbook_recipe_grid_9": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.farmerscookbook_recipe_part_9"
+    },
+    "farmerscookbook_recipe_grid_10": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.farmerscookbook_recipe_part_10"
+    },
+    "farmerscookbook_recipe_grid_11": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.farmerscookbook_recipe_part_11"
+    },
+    "recipe_grid_panel": {
+        "modifications": [
+            {
+                "array_name": "controls",
+                "operation": "insert_back",
+                "value": [
+                    {
+                        "farmerscookbook_recipe_grid_0@cooking_pot.farmerscookbook_recipe_grid_0": {}
+                    },
+                    {
+                        "farmerscookbook_recipe_grid_1@cooking_pot.farmerscookbook_recipe_grid_1": {}
+                    },
+                    {
+                        "farmerscookbook_recipe_grid_2@cooking_pot.farmerscookbook_recipe_grid_2": {}
+                    },
+                    {
+                        "farmerscookbook_recipe_grid_3@cooking_pot.farmerscookbook_recipe_grid_3": {}
+                    },
+                    {
+                        "farmerscookbook_recipe_grid_4@cooking_pot.farmerscookbook_recipe_grid_4": {}
+                    },
+                    {
+                        "farmerscookbook_recipe_grid_5@cooking_pot.farmerscookbook_recipe_grid_5": {}
+                    },
+                    {
+                        "farmerscookbook_recipe_grid_6@cooking_pot.farmerscookbook_recipe_grid_6": {}
+                    },
+                    {
+                        "farmerscookbook_recipe_grid_7@cooking_pot.farmerscookbook_recipe_grid_7": {}
+                    },
+                    {
+                        "farmerscookbook_recipe_grid_8@cooking_pot.farmerscookbook_recipe_grid_8": {}
+                    },
+                    {
+                        "farmerscookbook_recipe_grid_9@cooking_pot.farmerscookbook_recipe_grid_9": {}
+                    },
+                    {
+                        "farmerscookbook_recipe_grid_10@cooking_pot.farmerscookbook_recipe_grid_10": {}
+                    },
+                    {
+                        "farmerscookbook_recipe_grid_9@cooking_pot.farmerscookbook_recipe_grid_11": {}
+                    }
+                ]
+            }
+        ]
+    }
+}

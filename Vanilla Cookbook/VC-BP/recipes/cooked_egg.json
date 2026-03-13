@@ -1,0 +1,18 @@
+{
+  "format_version": "1.17",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "vanillacookbook:cooked_egg_1"
+    },
+    "tags": [
+      "furnace",
+      "campfire",
+      "smoker",
+      "soul_campfire"
+    ],
+    "input": {
+      "tag": "minecraft:egg"
+    },
+    "output": "vanillacookbook:cooked_egg"
+  }
+}

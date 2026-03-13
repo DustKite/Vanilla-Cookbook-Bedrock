@@ -1,0 +1,39 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:neapolitan_ice_cream"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "DEC",
+      " B "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:cookie"
+      },
+      "B": {
+        "item": "minecraft:cookie"
+      },
+      "C": {
+        "item": "vanillacookbook:ice_cream"
+      },
+      "D": {
+        "item": "vanillacookbook:chocolate_ice_cream"
+      },
+      "E": {
+        "item": "vanillacookbook:berry_ice_cream"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:neapolitan_ice_cream",
+        "count": 1
+      }
+    ]
+  }
+}

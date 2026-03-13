@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:pumpkin_cookie"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "   ",
+      "WPW",
+      "   "
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:wheat"
+      },
+      "P": {
+        "item": "minecraft:pumpkin"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:pumpkin_cookie",
+        "count": 8
+      }
+    ]
+  }
+}

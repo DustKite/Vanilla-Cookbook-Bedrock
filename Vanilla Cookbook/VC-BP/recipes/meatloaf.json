@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:meatloaf"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "C"
+    ],
+    "key": {
+      "A": {
+        "tag": "minecraft:is_meat"
+      },
+      "B": {
+        "item": "minecraft:bread"
+      },
+      "C": {
+        "tag": "minecraft:egg"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:meatloaf",
+        "count": 2
+      }
+    ]
+  }
+}

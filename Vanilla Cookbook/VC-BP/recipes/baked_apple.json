@@ -1,0 +1,13 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "vanillacookbook:baked_apple_1"
+    },
+    "tags": [
+      "smoker"
+    ],
+    "input": "minecraft:apple",
+    "output": "vanillacookbook:baked_apple"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "pack.description",
+    "name": "pack.name",
+    "uuid": "1a4ca609-0158-403b-b5c2-f7507d30100f",
+    "version": [
+      4,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      100
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "00210535-7c70-447e-93c2-52caf5cd5493",
+      "version": [
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "description": "VCScript",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "b11e846e-c215-430f-b1ef-1a7dcb0914e9",
+      "version": [
+        4,
+        0,
+        1
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "Dust_Kite"
+    ],
+    "license": "AAR",
+    "product_type": "addon"
+  },
+  "dependencies": [
+    {
+      "uuid": "e643c0d7-a075-47db-9f37-14bb142179dc",
+      "version": [
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    }
+  ]
+}

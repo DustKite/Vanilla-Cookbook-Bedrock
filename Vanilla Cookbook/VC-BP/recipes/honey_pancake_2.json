@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:honey_pancake_2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DE"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:wheat"
+      },
+      "B": {
+        "item": "minecraft:sugar"
+      },
+      "C": {
+        "item": "minecraft:egg"
+      },
+      "D": {
+        "tag": "farmersdelight:is_milk"
+      },
+      "E": {
+        "item": "minecraft:honey_bottle"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:honey_pancake",
+        "count": 1
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 2
+      }
+    ]
+  }
+}

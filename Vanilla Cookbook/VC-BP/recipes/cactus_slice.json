@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:cactus_slice"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " #",
+      "# "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:cactus"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:cactus_slice",
+        "count": 4
+      }
+    ]
+  }
+}

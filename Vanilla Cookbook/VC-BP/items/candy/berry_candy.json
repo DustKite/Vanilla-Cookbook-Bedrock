@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "components": {
+      "minecraft:food": {
+        "can_always_eat": true,
+        "nutrition": 3,
+        "saturation_modifier": 0.1
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "berry_candy"
+        }
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 0.8,
+        "movement_modifier": 0.4
+      }
+    },
+    "description": {
+      "identifier": "vanillacookbook:berry_candy",
+      "menu_category": {
+        "category": "equipment",
+        "group": "vanillacookbook:itemGroup.name.Food"
+      }
+    }
+  }
+}

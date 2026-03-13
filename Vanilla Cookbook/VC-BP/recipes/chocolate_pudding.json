@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:chocolate_pudding"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DE"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:bowl"
+      },
+      "B": {
+        "tag": "minecraft:egg"
+      },
+      "C": {
+        "item": "minecraft:milk_bucket"
+      },
+      "D": {
+        "item": "minecraft:sugar"
+      },
+      "E": {
+        "item": "minecraft:cocoa_beans"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:chocolate_pudding",
+        "count": 1
+      },
+      {
+        "item": "minecraft:bucket",
+        "count": 1
+      }
+    ]
+  }
+}

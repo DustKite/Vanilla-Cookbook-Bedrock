@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:fungus_stew_4"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "C"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:bowl"
+      },
+      "B": {
+        "item": "minecraft:crimson_fungus"
+      },
+      "C": {
+        "item": "minecraft:crimson_fungus"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:fungus_stew",
+        "count": 1
+      }
+    ]
+  }
+}

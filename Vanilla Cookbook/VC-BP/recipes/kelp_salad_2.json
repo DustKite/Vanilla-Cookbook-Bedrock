@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:kelp_salad_2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DE"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:bowl"
+      },
+      "B": {
+        "item": "minecraft:cooked_salmon"
+      },
+      "C": {
+        "item": "minecraft:kelp"
+      },
+      "D": {
+        "item": "minecraft:kelp"
+      },
+      "E": {
+        "item": "minecraft:kelp"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:kelp_salad",
+        "count": 1
+      }
+    ]
+  }
+}

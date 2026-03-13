@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "farmerscookbook:kelp_salad"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DE"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:bowl"
+      },
+      "B": {
+        "tag": "farmersdelight:is_cooked_cod"
+      },
+      "C": {
+        "item": "minecraft:kelp"
+      },
+      "D": {
+        "item": "minecraft:kelp"
+      },
+      "E": {
+        "item": "minecraft:kelp"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:kelp_salad",
+        "count": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,345 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "apple_chips": {
+      "textures": "textures/items/vc_apple_chips"
+    },
+    "apple_juice": {
+      "textures": "textures/items/vc_apple_juice"
+    },
+    "apple_pie": {
+      "textures": "textures/items/vc_apple_pie"
+    },
+    "apple_sauce": {
+      "textures": "textures/items/vc_apple_sauce"
+    },
+    "apple_soda": {
+      "textures": "textures/items/vc_apple_soda"
+    },
+    "bacon_pancake": {
+      "textures": "textures/items/vc_bacon_pancake"
+    },
+    "baked_apple": {
+      "textures": "textures/items/vc_baked_apple"
+    },
+    "beetroot_pie": {
+      "textures": "textures/items/vc_beetroot_pie"
+    },
+    "beet_chips": {
+      "textures": "textures/items/vc_beet_chips"
+    },
+    "berry_brownie": {
+      "textures": "textures/items/vc_berry_brownie"
+    },
+    "berry_cake": {
+      "textures": "textures/items/vc_berry_cake"
+    },
+    "berry_candy": {
+      "textures": "textures/items/vc_berry_candy"
+    },
+    "berry_cookie": {
+      "textures": "textures/items/vc_berry_cookie"
+    },
+    "berry_ice_cream": {
+      "textures": "textures/items/vc_berry_ice_cream"
+    },
+    "berry_juice": {
+      "textures": "textures/items/vc_berry_juice"
+    },
+    "berry_milk": {
+      "textures": "textures/items/vc_berry_milk"
+    },
+    "berry_pancake": {
+      "textures": "textures/items/vc_berry_pancake"
+    },
+    "berry_pie": {
+      "textures": "textures/items/vc_berry_pie"
+    },
+    "berry_soda": {
+      "textures": "textures/items/vc_berry_soda"
+    },
+    "book_cake": {
+      "textures": "textures/items/vc_book_cake"
+    },
+    "brownie": {
+      "textures": "textures/items/vc_brownie"
+    },
+    "brownie_tray": {
+      "textures": "textures/items/vc_brownie_tray"
+    },
+    "cactus_slice": {
+      "textures": "textures/items/vc_cactus_slice"
+    },
+    "cactus_juice": {
+      "textures": "textures/items/vc_cactus_juice"
+    },
+    "cactus_soda": {
+      "textures": "textures/items/vc_cactus_soda"
+    },
+    "carrot_cake": {
+      "textures": "textures/items/vc_carrot_cake"
+    },
+    "cheese": {
+      "textures": "textures/items/vc_cheese"
+    },
+    "cheesecake": {
+      "textures": "textures/items/vc_cheesecake"
+    },
+    "cherry_blossom_tea": {
+      "textures": "textures/items/vc_cherry_blossom_tea"
+    },
+    "chicken_soup": {
+      "textures": "textures/items/vc_chicken_soup"
+    },
+    "chocolate": {
+      "textures": "textures/items/vc_chocolate"
+    },
+    "chocolate_cake": {
+      "textures": "textures/items/vc_chocolate_cake"
+    },
+    "chocolate_egg": {
+      "textures": "textures/items/vc_chocolate_egg"
+    },
+    "chocolate_ice_cream": {
+      "textures": "textures/items/vc_chocolate_ice_cream"
+    },
+    "chocolate_milk": {
+      "textures": "textures/items/vc_chocolate_milk"
+    },
+    "chocolate_pudding": {
+      "textures": "textures/items/vc_chocolate_pudding"
+    },
+    "chorus_cake": {
+      "textures": "textures/items/vc_chorus_cake"
+    },
+    "chorus_juice": {
+      "textures": "textures/items/vc_chorus_juice"
+    },
+    "chorus_soda": {
+      "textures": "textures/items/vc_chorus_soda"
+    },
+    "cooked_bamboo": {
+      "textures": "textures/items/vc_cooked_bamboo"
+    },
+    "cooked_beetroot": {
+      "textures": "textures/items/vc_cooked_beetroot"
+    },
+    "cooked_cactus_slice": {
+      "textures": "textures/items/vc_cooked_cactus_slice"
+    },
+    "cooked_egg": {
+      "textures": "textures/items/vc_cooked_egg"
+    },
+    "cooked_sniffer_egg": {
+      "textures": "textures/items/vc_cooked_sniffer_egg"
+    },
+    "cooked_turtle_egg": {
+      "textures": "textures/items/vc_cooked_turtle_egg"
+    },
+    "cotton_candy": {
+      "textures": "textures/items/vc_cotton_candy"
+    },
+    "creepe": {
+      "textures": "textures/items/vc_creepe"
+    },
+    "fish_and_chips": {
+      "textures": "textures/items/vc_fish_and_chips"
+    },
+    "fish_stew": {
+      "textures": "textures/items/vc_fish_stew"
+    },
+    "flower_tea": {
+      "textures": "textures/items/vc_flower_tea"
+    },
+    "french_toast": {
+      "textures": "textures/items/vc_french_toast"
+    },
+    "fruit_salad": {
+      "textures": "textures/items/vc_fruit_salad"
+    },
+    "fungus_stew": {
+      "textures": "textures/items/vc_fungus_stew"
+    },
+    "garden_soup": {
+      "textures": "textures/items/vc_garden_soup"
+    },
+    "glazed_glow_berries": {
+      "textures": "textures/items/vc_glazed_glow_berries"
+    },
+    "glow_berry_cake": {
+      "textures": "textures/items/vc_glow_berry_cake"
+    },
+    "glow_ink_soup": {
+      "textures": "textures/items/vc_glow_ink_soup"
+    },
+    "golden_fruit_salad": {
+      "textures": "textures/items/vc_golden_fruit_salad"
+    },
+    "grilled_melon": {
+      "textures": "textures/items/vc_grilled_melon"
+    },
+    "honey_candy": {
+      "textures": "textures/items/vc_honey_candy"
+    },
+    "honey_cookie": {
+      "textures": "textures/items/vc_honey_cookie"
+    },
+    "honey_pancake": {
+      "textures": "textures/items/vc_honey_pancake"
+    },
+    "hot_chicken_drumstick": {
+      "textures": "textures/items/vc_hot_chicken_drumstick"
+    },
+    "hot_potato_chips": {
+      "textures": "textures/items/vc_hot_potato_chips"
+    },
+    "ice_cream": {
+      "textures": "textures/items/vc_ice_cream"
+    },
+    "ice_cream_cake": {
+      "textures": "textures/items/vc_ice_cream_cake"
+    },
+    "ink_soup": {
+      "textures": "textures/items/vc_ink_soup"
+    },
+    "jelly": {
+      "textures": "textures/items/vc_jelly"
+    },
+    "kebab": {
+      "textures": "textures/items/vc_kebab"
+    },
+    "kelp_salad": {
+      "textures": "textures/items/vc_kelp_salad"
+    },
+    "leaf_tea": {
+      "textures": "textures/items/vc_leaf_tea"
+    },
+    "magma_jelly": {
+      "textures": "textures/items/vc_magma_jelly"
+    },
+    "mashed_potatoes": {
+      "textures": "textures/items/vc_mashed_potatoes"
+    },
+    "meatball": {
+      "textures": "textures/items/vc_meatball"
+    },
+    "meatloaf": {
+      "textures": "textures/items/vc_meatloaf"
+    },
+    "meaty_stew": {
+      "textures": "textures/items/vc_meaty_stew"
+    },
+    "melon_juice": {
+      "textures": "textures/items/vc_melon_juice"
+    },
+    "melon_soda": {
+      "textures": "textures/items/vc_melon_soda"
+    },
+    "milk_bottle": {
+      "textures": "textures/items/vc_milk_bottle"
+    },
+    "miners_salad": {
+      "textures": "textures/items/vc_miners_salad"
+    },
+    "mohnkuchen": {
+      "textures": "textures/items/vc_mohnkuchen"
+    },
+    "mushroom_scrambled_eggs": {
+      "textures": "textures/items/vc_mushroom_scrambled_eggs"
+    },
+    "neapolitan_ice_cream": {
+      "textures": "textures/items/vc_neapolitan_ice_cream"
+    },
+    "netherite_apple": {
+      "textures": "textures/items/vc_netherite_apple"
+    },
+    "pancake": {
+      "textures": "textures/items/vc_pancake"
+    },
+    "pancake_stack": {
+      "textures": "textures/items/vc_pancake_stack"
+    },
+    "pitcher_praline": {
+      "textures": "textures/items/vc_pitcher_praline"
+    },
+    "plain_salad": {
+      "textures": "textures/items/vc_plain_salad"
+    },
+    "poisonous_pie": {
+      "textures": "textures/items/vc_poisonous_pie"
+    },
+    "potato_chips": {
+      "textures": "textures/items/vc_potato_chips"
+    },
+    "potato_cookie": {
+      "textures": "textures/items/vc_potato_cookie"
+    },
+    "potato_pancake": {
+      "textures": "textures/items/vc_potato_pancake"
+    },
+    "pudding": {
+      "textures": "textures/items/vc_pudding"
+    },
+    "pumpkin_cookie": {
+      "textures": "textures/items/vc_pumpkin_cookie"
+    },
+    "pumpkin_soup": {
+      "textures": "textures/items/vc_pumpkin_soup"
+    },
+    "pumpsicle": {
+      "textures": "textures/items/vc_pumpsicle"
+    },
+    "root_salad": {
+      "textures": "textures/items/vc_root_salad"
+    },
+    "rose_cake": {
+      "textures": "textures/items/vc_rose_cake"
+    },
+    "sculky_cheese": {
+      "textures": "textures/items/vc_sculky_cheese"
+    },
+    "sea_pickle_juice": {
+      "textures": "textures/items/vc_sea_pickle_juice"
+    },
+    "sea_pickle_soda": {
+      "textures": "textures/items/vc_sea_pickle_soda"
+    },
+    "smoldering_stew": {
+      "textures": "textures/items/vc_smoldering_stew"
+    },
+    "snow_horn": {
+      "textures": "textures/items/vc_snow_horn"
+    },
+    "spicy_meatball": {
+      "textures": "textures/items/vc_spicy_meatball"
+    },
+    "stuffed_sea_pickle": {
+      "textures": "textures/items/vc_stuffed_sea_pickle"
+    },
+    "sunflower_seed_cookie": {
+      "textures": "textures/items/vc_sunflower_seed_cookie"
+    },
+    "sweet_skewer": {
+      "textures": "textures/items/vc_sweet_skewer"
+    },
+    "sword_lollipop": {
+      "textures": "textures/items/vc_sword_lollipop"
+    },
+    "the_sludge": {
+      "textures": "textures/items/vc_the_sludge"
+    },
+    "trail_mix": {
+      "textures": "textures/items/vc_trail_mix"
+    },
+    "vegetable_stew": {
+      "textures": "textures/items/vc_vegetable_stew"
+    },
+    "warped_gummy": {
+      "textures": "textures/items/vc_warped_gummy"
+    },
+    "wart_pie": {
+      "textures": "textures/items/vc_wart_pie"
+    }
+  }
+}

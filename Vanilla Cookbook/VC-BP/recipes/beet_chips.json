@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:beet_chips"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "vanillacookbook:cooked_beetroot"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:beet_chips",
+        "count": 2
+      }
+    ]
+  }
+}

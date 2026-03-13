@@ -1,0 +1,16 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "vanillacookbook:cooked_cactus_slice_1"
+    },
+    "tags": [
+      "furnace",
+      "campfire",
+      "smoker",
+      "soul_campfire"
+    ],
+    "input": "vanillacookbook:cactus_slice",
+    "output": "vanillacookbook:cooked_cactus_slice"
+  }
+}

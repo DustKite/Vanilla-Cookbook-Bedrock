@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:melon_soda"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "vanillacookbook:melon_juice"
+      },
+      "B": {
+        "item": "minecraft:dragon_breath"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:melon_soda",
+        "count": 1
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
+      }
+    ]
+  }
+}

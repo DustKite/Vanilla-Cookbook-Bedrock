@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:root_salad"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "C"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:bowl"
+      },
+      "B": {
+        "item": "minecraft:crimson_roots"
+      },
+      "C": {
+        "item": "minecraft:warped_roots"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:root_salad",
+        "count": 1
+      }
+    ]
+  }
+}

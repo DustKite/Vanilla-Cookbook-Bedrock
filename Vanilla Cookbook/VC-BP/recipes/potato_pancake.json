@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:potato_pancake"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "C"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:potato"
+      },
+      "B": {
+        "item": "minecraft:wheat"
+      },
+      "C": {
+        "tag": "minecraft:egg"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:potato_pancake",
+        "count": 1
+      }
+    ]
+  }
+}

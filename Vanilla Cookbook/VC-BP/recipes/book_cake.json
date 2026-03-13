@@ -1,0 +1,43 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:book_cake"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "PPP",
+      "SES",
+      "WMW"
+    ],
+    "key": {
+      "E": {
+        "tag": "minecraft:egg"
+      },
+      "S": {
+        "item": "minecraft:sugar"
+      },
+      "W": {
+        "item": "minecraft:wheat"
+      },
+      "M": {
+        "item": "minecraft:milk_bucket"
+      },
+      "P": {
+        "item": "minecraft:paper"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:book_cake",
+        "count": 1
+      },
+      {
+        "item": "minecraft:bucket",
+        "count": 1
+      }
+    ]
+  }
+}

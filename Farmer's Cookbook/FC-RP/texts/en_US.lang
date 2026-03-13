@@ -1,0 +1,14 @@
+pack.description=For FarmersDelightv5.0.0+. Adds Farmer's Delight(made by Moaswies) and Vanilla Cookbook compatablity,More food and recipes were provided.
+pack.name=Farmer's Cookbook
+
+item.farmerscookbook:pizza=Pizza
+item.farmerscookbook:berry_cake_slice=Berry Cake Slice
+item.farmerscookbook:book_cake_slice=Book Cake Slice
+item.farmerscookbook:carrot_cake_slice=Carrot Cake Slice
+item.farmerscookbook:cheesecake_slice=Cheesecake Slice
+item.farmerscookbook:chocolate_cake_slice=Chocolate Cake Slice
+item.farmerscookbook:chorus_cake_slice=Chorus Cake Slice\n§9Teleport You Like Chorus Fruit
+item.farmerscookbook:ice_cream_cake_slice=Ice Cream Cake Slice
+item.farmerscookbook:mohnkuchen_slice=Mohnkuchen Slice
+item.farmerscookbook:rose_cake_slice=Rose Cake Slice
+item.farmerscookbook:glow_berry_cake_slice=Glow Berry Cake Slice

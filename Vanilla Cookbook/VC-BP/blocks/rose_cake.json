@@ -1,0 +1,351 @@
+{
+    "format_version": "1.21.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "vanillacookbook:rose_cake",
+            "states": {
+                "vanillacookbook:cake_stage": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ]
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 0.0
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('vanillacookbook:cake_stage') == 0",
+                "components": {
+                    "minecraft:geometry": "geometry.cake",
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7.0,
+                            0.0,
+                            -7.0
+                        ],
+                        "size": [
+                            14.0,
+                            8.0,
+                            14.0
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7.0,
+                            0.0,
+                            -7.0
+                        ],
+                        "size": [
+                            14.0,
+                            8.0,
+                            14.0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('vanillacookbook:cake_stage') == 1",
+                "components": {
+                    "minecraft:geometry": "geometry.cake_slice1",
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7.0,
+                            0.0,
+                            -7.0
+                        ],
+                        "size": [
+                            12.0,
+                            8.0,
+                            14.0
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7.0,
+                            0.0,
+                            -7.0
+                        ],
+                        "size": [
+                            12.0,
+                            8.0,
+                            14.0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('vanillacookbook:cake_stage') == 2",
+                "components": {
+                    "minecraft:geometry": "geometry.cake_slice2",
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7.0,
+                            0.0,
+                            -7.0
+                        ],
+                        "size": [
+                            10.0,
+                            8.0,
+                            14.0
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7.0,
+                            0.0,
+                            -7.0
+                        ],
+                        "size": [
+                            10.0,
+                            8.0,
+                            14.0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('vanillacookbook:cake_stage') == 3",
+                "components": {
+                    "minecraft:geometry": "geometry.cake_slice3",
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7.0,
+                            0.0,
+                            -7.0
+                        ],
+                        "size": [
+                            8.0,
+                            8.0,
+                            14.0
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7.0,
+                            0.0,
+                            -7.0
+                        ],
+                        "size": [
+                            8.0,
+                            8.0,
+                            14.0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('vanillacookbook:cake_stage') == 4",
+                "components": {
+                    "minecraft:geometry": "geometry.cake_slice4",
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7.0,
+                            0.0,
+                            -7.0
+                        ],
+                        "size": [
+                            6.0,
+                            8.0,
+                            14.0
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7.0,
+                            0.0,
+                            -7.0
+                        ],
+                        "size": [
+                            6.0,
+                            8.0,
+                            14.0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('vanillacookbook:cake_stage') == 5",
+                "components": {
+                    "minecraft:geometry": "geometry.cake_slice5",
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7.0,
+                            0.0,
+                            -7.0
+                        ],
+                        "size": [
+                            4.0,
+                            8.0,
+                            14.0
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7.0,
+                            0.0,
+                            -7.0
+                        ],
+                        "size": [
+                            4.0,
+                            8.0,
+                            14.0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('vanillacookbook:cake_stage') == 6",
+                "components": {
+                    "minecraft:geometry": "geometry.cake_slice6",
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7.0,
+                            0.0,
+                            -7.0
+                        ],
+                        "size": [
+                            2.0,
+                            8.0,
+                            14.0
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7.0,
+                            0.0,
+                            -7.0
+                        ],
+                        "size": [
+                            2.0,
+                            8.0,
+                            14.0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            270,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:geometry": "geometry.cake",
+            "minecraft:redstone_conductivity": {
+                "allows_wire_to_step_down": false
+            },
+            "vanillacookbook:cake": {},
+            "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.5,
+                "item_specific_speeds": [
+                    {
+                        "destroy_speed": 0.33333,
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_tool', 'minecraft:is_sword') && q.any_tag('minecraft:iron_tier', 'minecraft:diamond_tier', 'minecraft:netherite_tier')"
+                        }
+                    }
+                ]
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "rose_cake_top"
+                },
+                "inner": {
+                    "texture": "rose_cake_inner"
+                },
+                "side": {
+                    "texture": "rose_cake_side"
+                },
+                "top": {
+                    "texture": "rose_cake_top"
+                },
+                "bottom": {
+                    "texture": "rose_cake_bottom"
+                }
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -7.0,
+                    0.0,
+                    -7.0
+                ],
+                "size": [
+                    14.0,
+                    8.0,
+                    14.0
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -7.0,
+                    0.0,
+                    -7.0
+                ],
+                "size": [
+                    14.0,
+                    8.0,
+                    14.0
+                ]
+            }
+        }
+    }
+}

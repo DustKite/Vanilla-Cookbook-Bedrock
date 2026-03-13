@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:spicy_meatball_34"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DE"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:beef"
+      },
+      "B": {
+        "item": "minecraft:bread"
+      },
+      "C": {
+        "tag": "minecraft:egg"
+      },
+      "D": {
+        "tag": "farmersdelight:is_milk"
+      },
+      "E": {
+        "item": "minecraft:torchflower_seeds"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:spicy_meatball",
+        "count": 3
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
+      }
+    ]
+  }
+}

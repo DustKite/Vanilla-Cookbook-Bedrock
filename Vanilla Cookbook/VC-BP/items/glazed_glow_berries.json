@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "components": {
+      "minecraft:food": {
+        "can_always_eat": false,
+        "nutrition": 6,
+        "saturation_modifier": 0.4,
+        "using_converts_to": "stick"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "glazed_glow_berries"
+        }
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.4
+      }
+    },
+    "description": {
+      "identifier": "vanillacookbook:glazed_glow_berries",
+      "menu_category": {
+        "category": "equipment",
+        "group": "vanillacookbook:itemGroup.name.Food"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "vanillacookbook:cooked_sniffer_egg_1"
+    },
+    "tags": [
+      "furnace",
+      "campfire",
+      "smoker",
+      "soul_campfire"
+    ],
+    "input": "minecraft:sniffer_egg",
+    "output": "vanillacookbook:cooked_sniffer_egg"
+  }
+}

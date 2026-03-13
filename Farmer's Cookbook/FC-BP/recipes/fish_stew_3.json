@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "farmerscookbook:fish_stew_3"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "C"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:bowl"
+      },
+      "B": {
+        "tag": "farmersdelight:is_raw_fish"
+      },
+      "C": {
+        "item": "minecraft:fish"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:fish_stew",
+        "count": 1
+      }
+    ]
+  }
+}

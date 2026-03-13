@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:honey_cookie"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "WHW"
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:wheat"
+      },
+      "H": {
+        "item": "minecraft:honey_bottle"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:honey_cookie",
+        "count": 8
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
+      }
+    ]
+  }
+}

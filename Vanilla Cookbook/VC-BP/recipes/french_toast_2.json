@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:french_toast_2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "C"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:bread"
+      },
+      "B": {
+        "tag": "farmersdelight:is_milk"
+      },
+      "C": {
+        "tag": "minecraft:egg"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:french_toast",
+        "count": 2
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
+      }
+    ]
+  }
+}

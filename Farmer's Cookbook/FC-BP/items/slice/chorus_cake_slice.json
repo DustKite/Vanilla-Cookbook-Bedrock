@@ -1,0 +1,36 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "components": {
+      "minecraft:food": {
+        "can_always_eat": false,
+        "nutrition": 4,
+        "saturation_modifier": 0.1
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "chorus_cake_slice"
+        }
+      },
+      "minecraft:cooldown": {
+        "category": "vanillacookbook:chorus",
+        "duration": 1
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.4
+      },
+      "minecraft:compostable": {
+        "composting_chance": 85
+      }
+    },
+    "description": {
+      "identifier": "farmerscookbook:chorus_cake_slice",
+      "menu_category": {
+        "category": "equipment",
+        "group": "vanillacookbook:itemGroup.name.Food"
+      }
+    }
+  }
+}

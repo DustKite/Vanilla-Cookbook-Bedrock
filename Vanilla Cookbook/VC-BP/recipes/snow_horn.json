@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:snow_horn"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DE"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:sweet_berries"
+      },
+      "B": {
+        "item": "minecraft:wheat"
+      },
+      "C": {
+        "item": "minecraft:milk_bucket"
+      },
+      "D": {
+        "item": "minecraft:powder_snow_bucket"
+      },
+      "E": {
+        "item": "minecraft:goat_horn"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:snow_horn",
+        "count": 1
+      },
+      {
+        "item": "minecraft:goat_horn",
+        "count": 1
+      },
+      {
+        "item": "minecraft:bucket",
+        "count": 2
+      }
+    ]
+  }
+}

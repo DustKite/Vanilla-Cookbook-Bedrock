@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:stuffed_sea_pickle"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:sea_pickle"
+      },
+      "B": {
+        "item": "vanillacookbook:cheese"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:stuffed_sea_pickle",
+        "count": 1
+      }
+    ]
+  }
+}

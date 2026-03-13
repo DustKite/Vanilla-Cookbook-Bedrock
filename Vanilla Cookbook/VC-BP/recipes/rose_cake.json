@@ -1,0 +1,43 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:rose_cake"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "RRR",
+      "SES",
+      "WMW"
+    ],
+    "key": {
+      "E": {
+        "tag": "minecraft:egg"
+      },
+      "S": {
+        "item": "minecraft:sugar"
+      },
+      "W": {
+        "item": "minecraft:wheat"
+      },
+      "M": {
+        "item": "minecraft:milk_bucket"
+      },
+      "R": {
+        "item": "minecraft:rose_bush"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:rose_cake",
+        "count": 1
+      },
+      {
+        "item": "minecraft:bucket",
+        "count": 1
+      }
+    ]
+  }
+}

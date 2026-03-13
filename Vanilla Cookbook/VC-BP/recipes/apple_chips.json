@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:apple_chips"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "vanillacookbook:baked_apple"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:apple_chips",
+        "count": 3
+      }
+    ]
+  }
+}

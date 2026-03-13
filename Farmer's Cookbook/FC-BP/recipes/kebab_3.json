@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "farmerscookbook:kebab_3"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "CD"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:stick"
+      },
+      "B": {
+        "tag": "farmersdelight:is_raw_beef"
+      },
+      "C": {
+        "item": "minecraft:potato"
+      },
+      "D": {
+        "item": "minecraft:brown_mushroom"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:kebab",
+        "count": 1
+      }
+    ]
+  }
+}

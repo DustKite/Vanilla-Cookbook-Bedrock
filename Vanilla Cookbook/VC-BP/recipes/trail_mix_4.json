@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:trail_mix_4"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "D"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:beetroot_seeds"
+      },
+      "B": {
+        "item": "minecraft:beetroot_seeds"
+      },
+      "C": {
+        "item": "minecraft:beetroot_seeds"
+      },
+      "D": {
+        "item": "minecraft:beetroot_seeds"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:trail_mix",
+        "count": 1
+      }
+    ]
+  }
+}

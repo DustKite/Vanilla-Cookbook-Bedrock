@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:chocolate_milk"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "C"
+    ],
+    "key": {
+      "A": {
+        "item": "vanillacookbook:milk_bottle"
+      },
+      "B": {
+        "item": "minecraft:cocoa_beans"
+      },
+      "C": {
+        "item": "minecraft:cocoa_beans"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:chocolate_milk",
+        "count": 1
+      }
+    ]
+  }
+}

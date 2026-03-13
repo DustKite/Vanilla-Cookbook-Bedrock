@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:miners_salad"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "DC"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:moss_block"
+      },
+      "B": {
+        "item": "minecraft:glow_lichen"
+      },
+      "C": {
+        "item": "minecraft:moss_block"
+      },
+      "D": {
+        "item": "minecraft:glow_lichen"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:miners_salad",
+        "count": 2
+      }
+    ]
+  }
+}

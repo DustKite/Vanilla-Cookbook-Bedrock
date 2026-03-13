@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:berry_cookie"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "   ",
+      "WBW",
+      "   "
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:wheat"
+      },
+      "B": {
+        "item": "minecraft:sweet_berries"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:berry_cookie",
+        "count": 8
+      }
+    ]
+  }
+}

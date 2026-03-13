@@ -1,0 +1,14 @@
+pack.name=农夫的烹饪书
+pack.description=支持农夫乐事5.0.0+. 使农夫乐事与原版烹饪书兼容,添加了更多食物与配方.
+
+item.farmerscookbook:pizza=披萨
+item.farmerscookbook:berry_cake_slice=甜浆果蛋糕片
+item.farmerscookbook:book_cake_slice=书蛋糕片
+item.farmerscookbook:carrot_cake_slice=胡萝卜蛋糕片
+item.farmerscookbook:cheesecake_slice=奶酪蛋糕片
+item.farmerscookbook:chocolate_cake_slice=巧克力蛋糕片
+item.farmerscookbook:chorus_cake_slice=紫颂果蛋糕片\n§9像紫颂果一样将你传送走
+item.farmerscookbook:ice_cream_cake_slice=冰淇淋蛋糕片
+item.farmerscookbook:mohnkuchen_slice=虞美人蛋糕片
+item.farmerscookbook:rose_cake_slice=玫瑰蛋糕片
+item.farmerscookbook:glow_berry_cake_slice=发光浆果蛋糕片

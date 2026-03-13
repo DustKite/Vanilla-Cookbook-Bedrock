@@ -1,0 +1,45 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:berry_brownie_2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DEF"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:wheat"
+      },
+      "B": {
+        "item": "minecraft:sugar"
+      },
+      "C": {
+        "tag": "minecraft:egg"
+      },
+      "D": {
+        "tag": "farmersdelight:is_milk"
+      },
+      "E": {
+        "item": "minecraft:cocoa_beans"
+      },
+      "F": {
+        "item": "minecraft:sweet_berries"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:berry_brownie",
+        "count": 1
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
+      }
+    ]
+  }
+}

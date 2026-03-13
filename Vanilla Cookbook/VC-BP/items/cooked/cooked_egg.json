@@ -1,0 +1,37 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "components": {
+      "minecraft:food": {
+        "can_always_eat": false,
+        "nutrition": 4,
+        "saturation_modifier": 0.45
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "cooked_egg"
+        }
+      },
+      "minecraft:tags": {
+        "tags": [
+          "farmersdelight:is_cooked_egg"
+        ]
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.4
+      },
+      "minecraft:compostable": {
+        "composting_chance": 85
+      }
+    },
+    "description": {
+      "identifier": "vanillacookbook:cooked_egg",
+      "menu_category": {
+        "category": "equipment",
+        "group": "vanillacookbook:itemGroup.name.Food"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:bowl"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "   ",
+      "A A",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:armadillo_scute"
+      }
+    },
+    "result": [
+      {
+        "item": "minecraft:bowl",
+        "count": 1
+      }
+    ]
+  }
+}

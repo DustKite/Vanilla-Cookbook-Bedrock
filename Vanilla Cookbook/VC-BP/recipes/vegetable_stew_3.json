@@ -1,0 +1,43 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:vegetable_stew_3"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DEF",
+      "G"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:bowl"
+      },
+      "B": {
+        "item": "minecraft:carrot"
+      },
+      "C": {
+        "item": "minecraft:potato"
+      },
+      "D": {
+        "item": "minecraft:beetroot"
+      },
+      "E": {
+        "item": "minecraft:pumpkin"
+      },
+      "F": {
+        "item": "minecraft:brown_mushroom"
+      },
+      "G": {
+        "item": "minecraft:kelp"
+      }
+    },
+    "result": {
+      "item": "vanillacookbook:vegetable_stew",
+      "count": 1
+    }
+  }
+}

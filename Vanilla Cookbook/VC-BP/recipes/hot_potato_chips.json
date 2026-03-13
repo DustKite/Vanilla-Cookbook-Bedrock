@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:hot_potato_chips"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:baked_potato"
+      },
+      "B": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:hot_potato_chips",
+        "count": 3
+      }
+    ]
+  }
+}

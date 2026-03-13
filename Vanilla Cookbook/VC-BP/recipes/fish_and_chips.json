@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:fish_and_chips"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "C"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:cooked_fish"
+      },
+      "B": {
+        "item": "minecraft:potato"
+      },
+      "C": {
+        "item": "minecraft:potato"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:fish_and_chips",
+        "count": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:cactus_juice"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB ",
+      "C  "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:potion"
+      },
+      "B": {
+        "item": "minecraft:cactus"
+      },
+      "C": {
+        "item": "vanillacookbook:cactus_slice"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:cactus_juice",
+        "count": 1
+      }
+    ]
+  }
+}

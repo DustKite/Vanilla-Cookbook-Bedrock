@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:melon_juice"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB ",
+      "C  "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:potion"
+      },
+      "B": {
+        "item": "minecraft:melon_slice"
+      },
+      "C": {
+        "item": "minecraft:melon_slice"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:melon_juice",
+        "count": 1
+      }
+    ]
+  }
+}

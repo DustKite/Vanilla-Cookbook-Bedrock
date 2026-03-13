@@ -1,0 +1,39 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:meatball_6"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "CD"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:chicken"
+      },
+      "B": {
+        "item": "minecraft:bread"
+      },
+      "C": {
+        "tag": "minecraft:egg"
+      },
+      "D": {
+        "item": "minecraft:milk_bucket"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:meatball",
+        "count": 3
+      },
+      {
+        "item": "minecraft:bucket",
+        "count": 1
+      }
+    ]
+  }
+}

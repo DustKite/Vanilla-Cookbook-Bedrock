@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:golden_fruit_salad"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "CD"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:bowl"
+      },
+      "B": {
+        "item": "minecraft:glistering_melon_slice"
+      },
+      "C": {
+        "item": "minecraft:glow_berries"
+      },
+      "D": {
+        "item": "minecraft:honeycomb"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:golden_fruit_salad",
+        "count": 1
+      }
+    ]
+  }
+}

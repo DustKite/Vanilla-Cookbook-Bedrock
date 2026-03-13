@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:chorus_juice"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "C"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:potion"
+      },
+      "B": {
+        "item": "minecraft:chorus_fruit"
+      },
+      "C": {
+        "item": "minecraft:chorus_fruit"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:chorus_juice",
+        "count": 1
+      }
+    ]
+  }
+}

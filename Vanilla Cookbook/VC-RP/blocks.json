@@ -1,0 +1,43 @@
+{
+    "vanillacookbook:cheesecake": {
+        "sound": "cloth"
+    },
+    "vanillacookbook:mohnkuchen": {
+        "sound": "cloth"
+    },
+    "vanillacookbook:brownie_tray": {
+        "sound": "cloth"
+    },
+    "vanillacookbook:ice_cream_cake": {
+        "sound": "cloth"
+    },
+    "vanillacookbook:book_cake": {
+        "sound": "cloth"
+    },
+    "vanillacookbook:chorus_cake": {
+        "sound": "cloth"
+    },
+    "vanillacookbook:glow_berry_cake": {
+        "sound": "cloth"
+    },
+    "vanillacookbook:berry_cake": {
+        "sound": "cloth"
+    },
+    "vanillacookbook:carrot_cake": {
+        "sound": "cloth"
+    },
+    "vanillacookbook:chocolate_cake": {
+        "sound": "cloth"
+    },
+    "vanillacookbook:rose_cake": {
+        "sound": "cloth"
+    },
+    "vanillacookbook:pancake_stack": {
+        "sound": "cloth"
+    },
+    "format_version": [
+        1,
+        1,
+        0
+    ]
+}

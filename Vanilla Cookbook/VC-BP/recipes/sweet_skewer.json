@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:sweet_skewer"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " BB",
+      "BBB",
+      "SB "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:sugar_cane"
+      },
+      "B": {
+        "item": "minecraft:sweet_berries"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:sweet_skewer",
+        "count": 2
+      }
+    ]
+  }
+}

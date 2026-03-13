@@ -1,0 +1,41 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:flower_tea"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DEF"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:potion"
+      },
+      "B": {
+        "item": "minecraft:dandelion"
+      },
+      "C": {
+        "item": "minecraft:cornflower"
+      },
+      "D": {
+        "item": "minecraft:sunflower"
+      },
+      "E": {
+        "item": "minecraft:lilac"
+      },
+      "F": {
+        "item": "minecraft:rose_bush"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:flower_tea",
+        "count": 1
+      }
+    ]
+  }
+}

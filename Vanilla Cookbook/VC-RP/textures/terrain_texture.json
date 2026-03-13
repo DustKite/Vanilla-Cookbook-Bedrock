@@ -1,0 +1,157 @@
+{
+  "texture_data": {
+    "berry_cake_bottom": {
+      "textures": "textures/blocks/berry_cake_bottom"
+    },
+    "berry_cake_inner": {
+      "textures": "textures/blocks/berry_cake_inner"
+    },
+    "berry_cake_side": {
+      "textures": "textures/blocks/berry_cake_side"
+    },
+    "berry_cake_top": {
+      "textures": "textures/blocks/berry_cake_top"
+    },
+    "book_cake_bottom": {
+      "textures": "textures/blocks/book_cake_bottom"
+    },
+    "book_cake_side_1": {
+      "textures": "textures/blocks/book_cake_side_1"
+    },
+    "book_cake_side_2": {
+      "textures": "textures/blocks/book_cake_side_2"
+    },
+    "book_cake_side_3": {
+      "textures": "textures/blocks/book_cake_side_3"
+    },
+    "book_cake_side_4": {
+      "textures": "textures/blocks/book_cake_side_4"
+    },
+    "book_cake_side_5": {
+      "textures": "textures/blocks/book_cake_side_5"
+    },
+    "book_cake_side_6": {
+      "textures": "textures/blocks/book_cake_side_6"
+    },
+    "book_cake_top": {
+      "textures": "textures/blocks/book_cake_top"
+    },
+    "book_cake_top_2": {
+      "textures": "textures/blocks/book_cake_top_2"
+    },
+    "book_cake_top_3": {
+      "textures": "textures/blocks/book_cake_top_3"
+    },
+    "brownie_bottom": {
+      "textures": "textures/blocks/brownie_bottom"
+    },
+    "brownie_side": {
+      "textures": "textures/blocks/brownie_side"
+    },
+    "brownie_top": {
+      "textures": "textures/blocks/brownie_top"
+    },
+    "carrot_cake_bottom": {
+      "textures": "textures/blocks/carrot_cake_bottom"
+    },
+    "carrot_cake_inner": {
+      "textures": "textures/blocks/carrot_cake_inner"
+    },
+    "carrot_cake_side": {
+      "textures": "textures/blocks/carrot_cake_side"
+    },
+    "carrot_cake_top": {
+      "textures": "textures/blocks/carrot_cake_top"
+    },
+    "cheesecake_bottom": {
+      "textures": "textures/blocks/cheesecake_bottom"
+    },
+    "cheesecake_inner": {
+      "textures": "textures/blocks/cheesecake_inner"
+    },
+    "cheesecake_side": {
+      "textures": "textures/blocks/cheesecake_side"
+    },
+    "cheesecake_top": {
+      "textures": "textures/blocks/cheesecake_top"
+    },
+    "chocolate_cake_bottom": {
+      "textures": "textures/blocks/chocolate_cake_bottom"
+    },
+    "chocolate_cake_inner": {
+      "textures": "textures/blocks/chocolate_cake_inner"
+    },
+    "chocolate_cake_side": {
+      "textures": "textures/blocks/chocolate_cake_side"
+    },
+    "chocolate_cake_top": {
+      "textures": "textures/blocks/chocolate_cake_top"
+    },
+    "chorus_cake_bottom": {
+      "textures": "textures/blocks/chorus_cake_bottom"
+    },
+    "chorus_cake_inner": {
+      "textures": "textures/blocks/chorus_cake_inner"
+    },
+    "chorus_cake_side": {
+      "textures": "textures/blocks/chorus_cake_side"
+    },
+    "chorus_cake_top": {
+      "textures": "textures/blocks/chorus_cake_top"
+    },
+    "glow_berry_cake_bottom": {
+      "textures": "textures/blocks/glow_berry_cake_bottom"
+    },
+    "glow_berry_cake_inner": {
+      "textures": "textures/blocks/glow_berry_cake_inner"
+    },
+    "glow_berry_cake_side": {
+      "textures": "textures/blocks/glow_berry_cake_side"
+    },
+    "glow_berry_cake_top": {
+      "textures": "textures/blocks/glow_berry_cake_top"
+    },
+    "ice_cream_cake_bottom": {
+      "textures": "textures/blocks/ice_cream_cake_bottom"
+    },
+    "ice_cream_cake_inner": {
+      "textures": "textures/blocks/ice_cream_cake_inner"
+    },
+    "ice_cream_cake_side": {
+      "textures": "textures/blocks/ice_cream_cake_side"
+    },
+    "ice_cream_cake_top": {
+      "textures": "textures/blocks/ice_cream_cake_top"
+    },
+    "mohnkuchen_bottom": {
+      "textures": "textures/blocks/mohnkuchen_bottom"
+    },
+    "mohnkuchen_side": {
+      "textures": "textures/blocks/mohnkuchen_side"
+    },
+    "mohnkuchen_top": {
+      "textures": "textures/blocks/mohnkuchen_top"
+    },
+    "pancake_bottom": {
+      "textures": "textures/blocks/pancake_bottom"
+    },
+    "pancake_side": {
+      "textures": "textures/blocks/pancake_side"
+    },
+    "pancake_top": {
+      "textures": "textures/blocks/pancake_top"
+    },
+    "rose_cake_bottom": {
+      "textures": "textures/blocks/rose_cake_bottom"
+    },
+    "rose_cake_inner": {
+      "textures": "textures/blocks/rose_cake_inner"
+    },
+    "rose_cake_side": {
+      "textures": "textures/blocks/rose_cake_side"
+    },
+    "rose_cake_top": {
+      "textures": "textures/blocks/rose_cake_top"
+    }
+  }
+}
