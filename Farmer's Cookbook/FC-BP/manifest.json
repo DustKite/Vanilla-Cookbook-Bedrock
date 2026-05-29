@@ -7,7 +7,7 @@
     "version": [
       5,
       0,
-      0
+      1
     ],
     "min_engine_version": [
       1,
@@ -22,7 +22,7 @@
       "version": [
         5,
         0,
-        0
+        1
       ]
     },
     {
@@ -33,16 +33,16 @@
       "version": [
         5,
         0,
-        0
+        1
       ],
       "entry": "scripts/main.js"
     }
   ],
   "metadata": {
     "authors": [
-      "Dust_Kite"
+      "Dust_Kite/Elaikes"
     ],
-    "license": "AAR",
+    "license": "ARR",
     "product_type": "addon"
   },
   "dependencies": [
@@ -51,7 +51,7 @@
       "version": [
         5,
         0,
-        0
+        1
       ]
     },
     {
