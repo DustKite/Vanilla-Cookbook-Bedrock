@@ -143,7 +143,9 @@ export class Food {
         const itemType = itemStack.typeId;
 
         if (itemType !== "vanillacookbook:chorus_juice" &&
-            itemType !== "farmerscookbook:chorus_cake_slice") {
+            itemType !== "farmerscookbook:chorus_cake_slice" &&
+            itemType !== "vanillacookbook:chorus_roll" &&
+            itemType !== "vanillacookbook:ender_pie") {
             return;
         }
 

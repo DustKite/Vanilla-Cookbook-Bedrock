@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "vanillacookbook:raw_beet_meat_2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": {
+      "item": "vanillacookbook:raw_beet_meat",
+      "count": 1
+    },
+    "ingredients": [
+      {
+        "item": "minecraft:beetroot"
+      },
+      {
+        "item": "minecraft:wheat"
+      },
+      {
+        "item": "minecraft:red_mushroom"
+      },
+      {
+        "item": "minecraft:dried_kelp"
+      }
+    ]
+  }
+}

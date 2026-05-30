@@ -1,0 +1,45 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vanillacookbook:meatloaf_9"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DEF"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:mutton"
+      },
+      "B": {
+        "item": "minecraft:bread"
+      },
+      "C": {
+        "tag": "minecraft:egg"
+      },
+      "D": {
+        "item": "minecraft:milk_bucket"
+      },
+      "E": {
+        "item": "minecraft:beetroot"
+      },
+      "F": {
+        "item": "minecraft:allium"
+      }
+    },
+    "result": [
+      {
+        "item": "vanillacookbook:meatloaf",
+        "count": 2
+      },
+      {
+        "item": "minecraft:bucket",
+        "count": 1
+      }
+    ]
+  }
+}

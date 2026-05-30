@@ -8,8 +8,8 @@
       "crafting_table"
     ],
     "pattern": [
-      "AB",
-      "C"
+      "ABC",
+      "DEF"
     ],
     "key": {
       "A": {
@@ -20,12 +20,25 @@
       },
       "C": {
         "tag": "minecraft:egg"
+      },
+      "D": {
+        "tag": "farmersdelight:is_milk"
+      },
+      "E": {
+        "item": "minecraft:beetroot"
+      },
+      "F": {
+        "item": "minecraft:allium"
       }
     },
     "result": [
       {
         "item": "vanillacookbook:meatloaf",
         "count": 2
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
       }
     ]
   }

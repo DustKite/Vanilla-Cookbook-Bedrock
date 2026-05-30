@@ -6,7 +6,7 @@
     "uuid": "1a4ca609-0158-403b-b5c2-f7507d30100f",
     "version": [
       5,
-      0,
+      2,
       0
     ],
     "min_engine_version": [
@@ -21,7 +21,7 @@
       "uuid": "00210535-7c70-447e-93c2-52caf5cd5493",
       "version": [
         5,
-        0,
+        2,
         0
       ]
     },
@@ -32,7 +32,7 @@
       "uuid": "b11e846e-c215-430f-b1ef-1a7dcb0914e9",
       "version": [
         5,
-        0,
+        2,
         0
       ],
       "entry": "scripts/main.js"
@@ -42,7 +42,7 @@
     "authors": [
       "Dust_Kite/Elaikes"
     ],
-    "license": "ARR",
+    "license": "https://github.com/DustKite/Vanilla-Cookbook-Bedrock?tab=License-1-ov-file",
     "product_type": "addon"
   },
   "dependencies": [
@@ -50,7 +50,7 @@
       "uuid": "e643c0d7-a075-47db-9f37-14bb142179dc",
       "version": [
         5,
-        0,
+        2,
         0
       ]
     },

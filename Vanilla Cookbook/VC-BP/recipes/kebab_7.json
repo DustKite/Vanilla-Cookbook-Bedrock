@@ -16,13 +16,13 @@
         "item": "minecraft:stick"
       },
       "B": {
-        "tag": "minecraft:is_meat"
+        "item": "minecraft:porkchop"
       },
       "C": {
         "item": "minecraft:potato"
       },
       "D": {
-        "item": "minecraft:red_mushroom"
+        "item": "minecraft:brown_mushroom"
       }
     },
     "result": [

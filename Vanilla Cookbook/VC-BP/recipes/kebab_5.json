@@ -16,13 +16,13 @@
         "item": "minecraft:stick"
       },
       "B": {
-        "item": "minecraft:mutton"
+        "item": "vanillacookbook:raw_beet_meat"
       },
       "C": {
         "item": "minecraft:potato"
       },
       "D": {
-        "item": "minecraft:brown_mushroom"
+        "item": "minecraft:red_mushroom"
       }
     },
     "result": [

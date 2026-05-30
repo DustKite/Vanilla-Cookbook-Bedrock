@@ -114,6 +114,10 @@ item.vanillacookbook:book_cake=Book Cake
 item.vanillacookbook:glow_berry_cake=Glow Berry Cake
 item.vanillacookbook:pancake_stack=Pancake Stack
 item.vanillacookbook:brownie_tray=Brownie Tray
+item.vanillacookbook:cooked_beet_meat=Cooked Beet Meat
+item.vanillacookbook:raw_beet_meat=Raw Beet Meat
+item.vanillacookbook:chorus_roll=Chorus Roll\n§9Teleport You Like Chorus Fruit
+item.vanillacookbook:ender_pie=Ender Pie\n§9Teleport You Like Chorus Fruit
 
 vanillacookbook:itemGroup.name.Drink=VanillaCookbook-Drink
 vanillacookbook:itemGroup.name.Food=VanillaCookbook-Food

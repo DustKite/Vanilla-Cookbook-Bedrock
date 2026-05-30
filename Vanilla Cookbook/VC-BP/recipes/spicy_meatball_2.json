@@ -13,7 +13,7 @@
     ],
     "key": {
       "A": {
-        "item": "minecraft:rabbit"
+        "item": "minecraft:mutton"
       },
       "B": {
         "item": "minecraft:bread"
@@ -25,7 +25,7 @@
         "item": "minecraft:milk_bucket"
       },
       "E": {
-        "item": "minecraft:blaze_powder"
+        "item": "minecraft:torchflower"
       }
     },
     "result": [

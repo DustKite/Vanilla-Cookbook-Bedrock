@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.100",
+    "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
             "identifier": "vanillacookbook:brownie_tray",
@@ -312,6 +312,9 @@
                     3.0,
                     14.0
                 ]
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
             }
         }
     }

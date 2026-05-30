@@ -16,13 +16,13 @@
         "item": "minecraft:stick"
       },
       "B": {
-        "item": "minecraft:porkchop"
+        "item": "minecraft:mutton"
       },
       "C": {
         "item": "minecraft:potato"
       },
       "D": {
-        "item": "minecraft:red_mushroom"
+        "item": "minecraft:brown_mushroom"
       }
     },
     "result": [

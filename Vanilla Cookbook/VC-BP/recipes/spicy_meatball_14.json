@@ -13,7 +13,7 @@
     ],
     "key": {
       "A": {
-        "item": "minecraft:rabbit"
+        "item": "minecraft:chicken"
       },
       "B": {
         "item": "minecraft:bread"
@@ -22,10 +22,10 @@
         "tag": "minecraft:egg"
       },
       "D": {
-        "item": "minecraft:milk_bucket"
+        "tag": "farmersdelight:is_milk"
       },
       "E": {
-        "item": "minecraft:torchflower_seeds"
+        "item": "minecraft:blaze_powder"
       }
     },
     "result": [
@@ -34,7 +34,7 @@
         "count": 3
       },
       {
-        "item": "minecraft:bucket",
+        "item": "minecraft:glass_bottle",
         "count": 1
       }
     ]

@@ -350,7 +350,7 @@
       "entries": [
         {
           "type": "item",
-          "weight": 30,
+          "weight": 15,
           "functions": [
             {
               "function": "set_count",
@@ -361,6 +361,20 @@
             }
           ],
           "name": "vanillacookbook:chorus_juice"
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "name": "vanillacookbook:chorus_roll"
         },
         {
           "type": "item",

@@ -13,7 +13,7 @@
     ],
     "key": {
       "A": {
-        "item": "minecraft:beef"
+        "item": "vanillacookbook:raw_beet_meat"
       },
       "B": {
         "item": "minecraft:bread"
@@ -22,7 +22,7 @@
         "tag": "minecraft:egg"
       },
       "D": {
-        "item": "minecraft:milk_bucket"
+        "tag": "farmersdelight:is_milk"
       }
     },
     "result": [
@@ -31,7 +31,7 @@
         "count": 3
       },
       {
-        "item": "minecraft:bucket",
+        "item": "minecraft:glass_bottle",
         "count": 1
       }
     ]

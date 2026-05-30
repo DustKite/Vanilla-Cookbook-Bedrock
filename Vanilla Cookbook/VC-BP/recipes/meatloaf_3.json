@@ -8,24 +8,37 @@
       "crafting_table"
     ],
     "pattern": [
-      "AB",
-      "C"
+      "ABC",
+      "DEF"
     ],
     "key": {
       "A": {
-        "item": "minecraft:porkchop"
+        "item": "vanillacookbook:raw_beet_meat"
       },
       "B": {
         "item": "minecraft:bread"
       },
       "C": {
         "tag": "minecraft:egg"
+      },
+      "D": {
+        "tag": "farmersdelight:is_milk"
+      },
+      "E": {
+        "item": "minecraft:beetroot"
+      },
+      "F": {
+        "item": "minecraft:allium"
       }
     },
     "result": [
       {
         "item": "vanillacookbook:meatloaf",
         "count": 2
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
       }
     ]
   }
