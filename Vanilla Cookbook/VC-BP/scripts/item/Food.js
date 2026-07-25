@@ -140,106 +140,64 @@ export class Food {
     }
     eatTeleportFood(args) {
         const { itemStack, source: player } = args;
-        const itemType = itemStack.typeId;
-
-        if (itemType !== "vanillacookbook:chorus_juice" &&
-            itemType !== "farmerscookbook:chorus_cake_slice" &&
-            itemType !== "vanillacookbook:chorus_roll" &&
-            itemType !== "vanillacookbook:ender_pie") {
-            return;
-        }
-
-        const dim = player.dimension;
-        const startLoc = player.location;
-        const range = 8;
-        const maxAttempts = 1000;
-
+        const allowedItems = ["vanillacookbook:chorus_juice", "farmerscookbook:chorus_cake_slice", "vanillacookbook:chorus_roll", "vanillacookbook:ender_pie"];
+        if (!allowedItems.includes(itemStack.typeId)) return;
+        const dimension = player.dimension;
+        const startLocation = { x: player.location.x, y: player.location.y, z: player.location.z };
         const isPassable = (block) => {
-            if (!block) return false;
-            if (block.isAir) return true;
-            if (block.isLiquid) return false;
-
-            const id = block.typeId;
-            const passables = [
-                "sapling", "mushroom", "plant", "vine", "fern", "deadbush",
-                "torch", "lantern", "carpet", "snow_layer",
-                "button", "lever", "tripwire", "rail", "redstone"
-            ];
-
-            if (id.includes("grass")) return !id.includes("_block") && !id.includes("_path");
-            if (id.includes("flower") || id.includes("rose") || id.includes("tulip") || id.includes("orchid")) {
-                return !id.includes("chorus") && !id.includes("pot");
-            }
-
-            return passables.some(keyword => id.includes(keyword));
+            if (!block || block.isAir) return true;
+            const typeId = block.typeId;
+            if (block.isLiquid || /water|lava|sea|kelp|coral/.test(typeId)) return false;
+            return /sapling|mushroom|plant|vine|fern|bush|torch|lantern|carpet|snow|button|lever|rail|redstone|flower|rose|tulip|orchid|grass/.test(typeId) && !/_block|_path|pot|chorus/.test(typeId);
         };
-
-        const hasSupport = (block) => {
-            if (!block) return false;
-            if (isPassable(block) || block.isAir || block.isLiquid) return false;
-            const id = block.typeId;
-            return !(id.includes("lava") || id.includes("fire") || id.includes("magma"));
-        };
-
-        const isFenceLike = (block) => {
-            const id = block.typeId;
-            return (id.includes("wall") || id.includes("fence") || id.includes("gate")) &&
-                !id.includes("sign") && !id.includes("banner");
-        };
-
-        const spawnParticleBurst = (center) => {
-            for (let j = 0; j < 64; j++) {
-                dim.spawnParticle("minecraft:basic_portal_particle", {
-                    x: center.x + (Math.random() * 0.8 - 0.4),
-                    y: center.y + (Math.random() * 1.8),
-                    z: center.z + (Math.random() * 0.8 - 0.4)
+        const spawnBodyFX = (loc) => {
+            dimension.playSound("mob.endermen.portal", loc);
+            for (let j = 0; j < 20; j++) {
+                dimension.spawnParticle("minecraft:basic_portal_particle", {
+                    x: loc.x + (Math.random() - 0.5),
+                    y: loc.y + (Math.random() * 2),
+                    z: loc.z + (Math.random() - 0.5)
                 });
             }
         };
-
-        const startX = Math.floor(startLoc.x);
-        const startY = Math.floor(startLoc.y);
-        const startZ = Math.floor(startLoc.z);
-
-        for (let i = 0; i < maxAttempts; i++) {
-            const dx = Math.floor(Math.random() * (range * 2 + 1)) - range;
-            const dy = Math.floor(Math.random() * (range * 2 + 1)) - range;
-            const dz = Math.floor(Math.random() * (range * 2 + 1)) - range;
-
-            const targetX = startX + dx;
-            const targetY = startY + dy;
-            const targetZ = startZ + dz;
-
-            if (targetY < -64 || targetY > 320) continue;
-
-            const blockBelow = dim.getBlock({ x: targetX, y: targetY - 1, z: targetZ });
-            const blockFeet = dim.getBlock({ x: targetX, y: targetY, z: targetZ });
-            const blockHead = dim.getBlock({ x: targetX, y: targetY + 1, z: targetZ });
-
-            if (!blockBelow || !blockFeet || !blockHead) continue;
-
-            if (!hasSupport(blockBelow)) continue;
-            if (!isPassable(blockFeet)) continue;
-            if (!isPassable(blockHead)) continue;
-
-            let finalY = targetY;
-            if (isFenceLike(blockBelow)) {
-                finalY += 0.5;
-            } else {
-                finalY += 0.06;
+        const spawnTrail = (start, end) => {
+            const dx = end.x - start.x, dy = end.y - start.y, dz = end.z - start.z;
+            const distance = Math.sqrt(dx * dx + dy * dy + dz * dz);
+            const steps = Math.floor(distance * 3);
+            for (let i = 0; i <= steps; i++) {
+                const t = i / steps;
+                const lx = start.x + dx * t;
+                const ly = start.y + dy * t;
+                const lz = start.z + dz * t;
+                for (let k = 0; k < 2; k++) {
+                    dimension.spawnParticle("minecraft:basic_portal_particle", {
+                        x: lx + (Math.random() - 0.5) * 0.3,
+                        y: ly + (Math.random() * 2),
+                        z: lz + (Math.random() - 0.5) * 0.3
+                    });
+                }
             }
-
-            const targetLoc = { x: targetX + 0.5, y: finalY, z: targetZ + 0.5 };
-
-            dim.playSound("mob.endermen.portal", startLoc, { volume: 1, pitch: 1 });
-            spawnParticleBurst(startLoc);
-
-            player.teleport(targetLoc, { checkForBlocks: false, keepVelocity: false });
-
-            dim.playSound("mob.endermen.portal", targetLoc, { volume: 1, pitch: 1 });
-            spawnParticleBurst(targetLoc);
-
-            break;
+        };
+        for (let i = 0; i < 512; i++) {
+            const targetX = Math.floor(startLocation.x + Math.random() * 17 - 8);
+            const targetY = Math.floor(startLocation.y + Math.random() * 17 - 8);
+            const targetZ = Math.floor(startLocation.z + Math.random() * 17 - 8);
+            if (targetY < -64 || targetY > 319) continue;
+            const blockBelow = dimension.getBlock({ x: targetX, y: targetY - 1, z: targetZ });
+            const blockFeet = dimension.getBlock({ x: targetX, y: targetY, z: targetZ });
+            const blockHead = dimension.getBlock({ x: targetX, y: targetY + 1, z: targetZ });
+            if (!blockBelow || !blockFeet || !blockHead) continue;
+            const isWater = (b) => b.isLiquid || /water|sea|kelp|coral/.test(b.typeId);
+            const isSolid = (b) => !b.isAir && !isPassable(b) && !isWater(b) && !/lava|fire|magma/.test(b.typeId);
+            if (isSolid(blockBelow) && isPassable(blockFeet) && isPassable(blockHead) && !isWater(blockFeet)) {
+                const offset = /(wall|fence|gate)/.test(blockBelow.typeId) ? 0.5 : 0.06;
+                const targetLocation = { x: targetX + 0.5, y: targetY + offset, z: targetZ + 0.5 };
+                spawnBodyFX(startLocation);
+                spawnTrail(startLocation, targetLocation);
+                player.teleport(targetLocation, { checkForBlocks: false, keepVelocity: false });
+                spawnBodyFX(targetLocation);
+                return;
+            }
         }
     }
 }

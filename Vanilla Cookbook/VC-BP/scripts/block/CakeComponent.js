@@ -23,12 +23,12 @@ export class CakeComponent {
         const blockType = block.typeId;
         const inventory = player?.getComponent("inventory");
         if (!inventory) return;
-        
+
         const container = inventory?.container;
         const itemStack = container.getItem(player.selectedSlotIndex);
         const hunger = player.getComponent('minecraft:player.hunger');
         const saturation = player.getComponent('minecraft:player.saturation');
-        
+
         if (!hunger || !saturation) return;
         let hungerRestore = 2;
         let saturationRestore = 0.4;
@@ -141,7 +141,7 @@ export class CakeComponent {
                 ItemUtil.spawnItem(block, block.typeId);
                 block.dimension.runCommand(`setblock ${x} ${y} ${z} air`);
                 if (player?.getGameMode() != GameMode.Creative) {
-                   ItemUtil.damageItem(container, player.selectedSlotIndex);
+                    ItemUtil.damageItem(container, player.selectedSlotIndex);
                 }
             });
         } else if (stage > 0) {
@@ -150,7 +150,7 @@ export class CakeComponent {
                 block.dimension.runCommand(`setblock ${x} ${y} ${z} air destroy`);
                 if (container) {
                     if (player?.getGameMode() != GameMode.Creative) {
-                       ItemUtil.damageItem(container, player.selectedSlotIndex);
+                        ItemUtil.damageItem(container, player.selectedSlotIndex);
                     }
                 }
             });
@@ -163,21 +163,21 @@ export class CakeComponent {
     teleportCake(block, dimension, currentStage, maxStage) {
         const originalLoc = block.location;
         const range = 8;
-        const maxAttempts = 1000;
+        const maxAttempts = 512;
         const nonSolidKeywords = [
             "air", "void", "barrier", "light_block", "structure_void",
             "water", "lava", "flowing_", "bubble_column", "frosted_ice",
             "painting", "item_frame",
-            "plant", "flower", "fern", "sapling", "mushroom", "vine", 
+            "plant", "flower", "fern", "sapling", "mushroom", "vine",
             "bush", "shrub", "grass", "roots", "moss", "lichen",
             "seed", "crop", "pumpkin_stem", "melon_stem",
-            "dead_bush", "sweet_berry_bush", "hanging_roots", "weeping_vines", 
-            "twisting_vines", "leaf_litter", "tall_grass", "short_grass", 
-            "pink_petals", "small_dripleaf", "big_dripleaf", "amethyst_cluster", 
+            "dead_bush", "sweet_berry_bush", "hanging_roots", "weeping_vines",
+            "twisting_vines", "leaf_litter", "tall_grass", "short_grass",
+            "pink_petals", "small_dripleaf", "big_dripleaf", "amethyst_cluster",
             "pointed_dripstone", "glow_berries", "moss_carpet",
-            "rose", "poppy", "dandelion", "blue_orchid", "allium", 
-            "azure_bluet", "tulip", "oxeye_daisy", "cornflower", "lily_of_the_valley", 
-            "wither_rose", "sunflower", "lilac", "peony", "rose_bush", 
+            "rose", "poppy", "dandelion", "blue_orchid", "allium",
+            "azure_bluet", "tulip", "oxeye_daisy", "cornflower", "lily_of_the_valley",
+            "wither_rose", "sunflower", "lilac", "peony", "rose_bush",
             "pitcher_plant", "torchflower",
             "bamboo", "cactus", "sugar_cane", "kelp", "seagrass", "coral", "algae",
             "lily_pad", "sea_pickle", "spore_blossom", "dripstone", "berry",
@@ -189,10 +189,10 @@ export class CakeComponent {
             "rail", "redstone", "comparator", "repeater", "dust",
             "hopper", "cauldron", "composter", "brewing_stand", "lectern",
             "grindstone", "stonecutter", "camp_fire", "bell",
-            "piston", "observer", "dispenser", "dropper","cake",
+            "piston", "observer", "dispenser", "dropper", "cake",
             "carpet", "snow_layer", "skull", "head", "banner", "sign", "pot",
-            "wild", "tomato","potato","cabbage", "rice", "pineapple", "cotton", "toast", "luncheon",
-            "pie", "tatami", "rich", "skillet", "cutting_board", "medley","eggplant", "fennel","greenonion",
+            "wild", "tomato", "potato", "cabbage", "rice", "pineapple", "cotton", "toast", "luncheon",
+            "pie", "tatami", "rich", "skillet", "cutting_board", "medley", "eggplant", "fennel", "greenonion",
             "garlic", "dumpling", "cheese", "sushi", "deep_frying_pan", "quiche_lorraine", "dumpling",
             "paper_wrapped_fish", "stuffed"
         ];
@@ -244,7 +244,7 @@ export class CakeComponent {
         }
         return false;
     }
-    
+
     register(args) {
         args.blockComponentRegistry.registerCustomComponent('vanillacookbook:cake', new CakeComponent());
     }
