@@ -1,0 +1,14 @@
+pack.description=Para FarmersDelightv5.0.0+. Adiciona mais bolos e tortas!
+pack.name=Livro de Receitas do Fazendeiro
+
+item.farmerscookbook:pizza=Pizza
+item.farmerscookbook:berry_cake_slice=Fatia de Bolo de Frutinhas
+item.farmerscookbook:book_cake_slice=Fatia de Bolo de Livro
+item.farmerscookbook:carrot_cake_slice=Fatia de Bolo de Cenoura
+item.farmerscookbook:cheesecake_slice=Fatia de Cheesecake
+item.farmerscookbook:chocolate_cake_slice=Fatia de Bolo de Chocolate
+item.farmerscookbook:chorus_cake_slice=Fatia de Bolo de Coro\n§9Te Teleporta Como uma Fruta do Coro
+item.farmerscookbook:ice_cream_cake_slice=Fatia de Bolo de Sorvete
+item.farmerscookbook:mohnkuchen_slice=Fatia de Mohnkuchen
+item.farmerscookbook:rose_cake_slice=Fatia de Bolo de Rosa
+item.farmerscookbook:glow_berry_cake_slice=Fatia de Bolo de Baga Brilhante
