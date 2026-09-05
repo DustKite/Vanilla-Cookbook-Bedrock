@@ -14,7 +14,7 @@ export class Food {
     eat(args) {
         const { itemStack, source: player, useDuration } = args;
         if (useDuration) return;
-
+        if (!itemStack || !player) return;
         const itemType = itemStack.typeId;
         const weight = Math.floor(Math.random() * 11);
         const effects = player.getEffects();
@@ -178,7 +178,7 @@ export class Food {
                 }
             }
         };
-        for (let i = 0; i < 512; i++) {
+        for (let i = 0; i < 1000; i++) {
             const targetX = Math.floor(startLocation.x + Math.random() * 17 - 8);
             const targetY = Math.floor(startLocation.y + Math.random() * 17 - 8);
             const targetZ = Math.floor(startLocation.z + Math.random() * 17 - 8);
@@ -203,7 +203,7 @@ export class Food {
 }
 
 __decorate([
-    methodEventSub(world.afterEvents.itemStopUse),
+    methodEventSub(world.afterEvents.itemCompleteUse),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", void 0)
