@@ -163,7 +163,7 @@ export class CakeComponent {
     teleportCake(block, dimension, currentStage, maxStage) {
         const originalLoc = block.location;
         const range = 8;
-        const maxAttempts = 512;
+        const maxAttempts = 1000;
         const nonSolidKeywords = [
             "air", "void", "barrier", "light_block", "structure_void",
             "water", "lava", "flowing_", "bubble_column", "frosted_ice",

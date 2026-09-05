@@ -5,7 +5,10 @@
       "identifier": "vanillacookbook:baked_apple_1"
     },
     "tags": [
-      "smoker"
+      "smoker",
+      "furnace",
+      "campfire",
+      "soul_campfire"
     ],
     "input": "minecraft:apple",
     "output": "vanillacookbook:baked_apple"
